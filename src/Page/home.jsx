@@ -20,7 +20,7 @@ function Home() {
       <h1>This is Home page</h1>
       {users_data.map((us) => (
         // <div  style={{marginRight:"50vw"}}>   dsfsdfdffafaasfafaafv
-        <Link key={us.id} to={`/new-try-23-11/home/${us.id}`}>
+        <Link key={us.id} to={`/home/${us.id}`}>
           <Users  id={us.id} name={us.name} uname={us.username} />
         </Link>
       ))}
